@@ -29,13 +29,21 @@ struct VisibilityTracker: UIViewRepresentable {
         view.backgroundColor = .clear
         return view
     }
-    
+
     func updateUIView(_ uiView: UIView, context: Context) {
-        DispatchQueue.main.async {
-            let visible = UIApplication.shared.windows.contains { window in
-                window.bounds.intersects(frame)
+            DispatchQueue.main.async {
+                // Get all connected window scenes
+                let windowScenes = UIApplication.shared.connectedScenes
+                    .compactMap { $0 as? UIWindowScene }
+                
+                // Check if the view is visible in any window
+                let isVisible = windowScenes.contains { scene in
+                    scene.windows.contains { window in
+                        window.bounds.intersects(frame) && !window.isHidden
+                    }
+                }
+                
+                action(isVisible)
             }
-            action(visible)
         }
-    }
 }

@@ -15,7 +15,7 @@ struct MediaView: View {
     @State private var player: AVPlayer?
     @State private var isVideoReady = false
     @State private var showError = false
-    @State private var isMuted = true
+    @State private var isMuted = false
     @State private var cancellables = Set<AnyCancellable>()
     
     @ViewBuilder
