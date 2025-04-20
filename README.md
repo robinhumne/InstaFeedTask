@@ -23,3 +23,10 @@ Framework: SwiftUI
 Architecture: MVVM
 Video Player: AVKit
 Minimum iOS Version: 15.0
+
+🎬 Demo Video
+
+![Click to watch demo video]([https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/user-attachments/assets/3b9534ac-fd80-48b4-ae78-8d56f440f2a5))
+
+
+
