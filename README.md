@@ -33,8 +33,8 @@
 
 🎬 Demo Video  
 
-![Click to watch Demo](https://github.com/user-attachments/assets/3b9534ac-fd80-48b4-ae78-8d56f440f2a)
+![Click the Video for Demo.]
 
-
+https://github.com/user-attachments/assets/ebd63890-c339-4b4b-bcc1-7cc5c1fc69c7.mov
 
 
