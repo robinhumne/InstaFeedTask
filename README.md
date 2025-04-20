@@ -31,9 +31,10 @@
 - Minimum iOS Version: 15.0
 <br/>
 
-🎬 Demo Video
+🎬 Demo Video  
 
-![Click to watch demo video]([https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/user-attachments/assets/3b9534ac-fd80-48b4-ae78-8d56f440f2a5))
+![Click to watch Demo](https://github.com/user-attachments/assets/3b9534ac-fd80-48b4-ae78-8d56f440f2a)
+
 
 
 
